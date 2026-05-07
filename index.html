@@ -4,21 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Go See Lucy Live</title>
+    <title>The Goose is Loose</title>
 
     <!-- DaisyUI component styles + light/dark themes -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@5/daisyui.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/daisyui.css" rel="stylesheet" type="text/css" />
 
     <!-- DaisyUI additional themes -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -33,23 +25,54 @@
     </header>
 
     <main>
+      <!--hero image with overlay-->
       <div
-  class="hero inline-auto"
-  style="background-image: url(https://thumbs.dreamstime.com/b/young-female-contortionist-performs-dark-background-purple-leotard-52293097.jpg);"
->
-  <div class="hero-overlay"></div>
-  <div class="hero-content text-neutral-content text-center">
-    <div class="max-w-md">
-      <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-      <p class="mb-5">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
-      </p>
-      <button class="btn btn-primary xl:btn-xl">Get your tickets now!</button>
-    </div>
-  </div>
-</div>
+        class="hero inline-auto"
+        style="
+          background-image: url(https://thumbs.dreamstime.com/b/young-female-contortionist-performs-dark-background-purple-leotard-52293097.jpg);
+        ">
+        <div class="hero-overlay"></div>
+        <div class="hero-content text-neutral-content text-center">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+            <p class="mb-5">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In
+              deleniti eaque aut repudiandae et a id nisi.
+            </p>
+            <button class="btn btn-primary xl:btn-xl">Get your tickets now!</button>
+          </div>
+        </div>
+      </div>
 
+      <!--
+      <div class="flex gap-5">
+        <div>
+          <span class="countdown font-mono text-4xl">
+            <span id="days-span" style="--value: 15" aria-live="polite" aria-label="15">15</span>
+          </span>
+          days
+        </div>
+        <div>
+          <span class="countdown font-mono text-4xl">
+            <span id="hours-span" style="--value: 10" aria-live="polite" aria-label="10">10</span>
+          </span>
+          hours
+        </div>
+        <div>
+          <span class="countdown font-mono text-4xl">
+            <span id="mins-span" style="--value: 24" aria-live="polite" aria-label="24">24</span>
+          </span>
+          min
+        </div>
+        <div>
+          <span class="countdown font-mono text-4xl">
+            <span id="secs-span" style="--value: 59" aria-live="polite" aria-label="59">59</span>
+          </span>
+          sec
+        </div>
+      </div>
+      -->
     </main>
   </body>
 </html>
+<!--<script src="script.js"></script>-->
