@@ -21,30 +21,40 @@
   <body>
     <!--navbar header-->
     <div class="navbar bg-base-100 shadow-sm">
-      <a class="btn btn-ghost text-xl">Lucy</a>
+      <!--content on the "leftmost" side of the navbar-->
+      <div class="lmost-nav">
+        <span class="btn btn-ghost text-xl">Lucy</span>
+      </div>
+
+      <!--content on the "rightmost" side of the navbar-->
+      <div class="rmost-nav">
+        <a class="btn" href="#hero-sect">Intro</a>
+        <a class="btn">Bio</a>
+        <a class="btn">Fan Review</a>
+      </div>
     </div>
 
     <main>
-      <!--hero image with overlay-->
-      <div
-        class="hero inline-auto"
-        style="
-          background-image: url(https://thumbs.dreamstime.com/b/young-female-contortionist-performs-dark-background-purple-leotard-52293097.jpg);
-        ">
-        <div class="hero-overlay"></div>
-        <div class="hero-content text-neutral-content text-center">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">Lucy Goosey</h1>
-            <!--headline-->
-            <p class="mb-5">
-              <!--supporting copy-->
-              The only contortionist to win 5 consecutive rubber band awards. For Lucy, double-jointed is an understatement.
-            </p>
-            <!--Call to action-->
-            <button class="btn btn-primary xl:btn-xl">Get your tickets now!</button>
+      <section id="hero-sect">
+        <!--hero image with overlay-->
+        <div
+          class="hero inline-auto"
+          style="
+            background-image: url(https://thumbs.dreamstime.com/b/young-female-contortionist-performs-dark-background-purple-leotard-52293097.jpg);
+          ">
+          <div class="hero-overlay"></div>
+          <div class="hero-content text-neutral-content text-center">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold">Lucy Goosey</h1>
+              <!--headline-->
+              <p class="mb-5">
+                <!--supporting copy-->
+                The only contortionist to win 5 consecutive rubber band awards. For Lucy, double-jointed is an understatement.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <!--
       <div class="flex gap-5">
