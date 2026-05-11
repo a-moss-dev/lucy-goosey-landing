@@ -28,6 +28,7 @@
 
       <!--content on the "rightmost" side of the navbar-->
       <div class="rmost-nav">
+        <!--The page scrolls to hero section-->
         <a class="btn" href="#hero-sect">Intro</a>
         <a class="btn">Bio</a>
         <a class="btn">Fan Review</a>
@@ -35,7 +36,7 @@
     </div>
 
     <main>
-      <section id="hero-sect">
+      <section class="hero" id="hero-sect">
         <!--hero image with overlay-->
         <div
           class="hero inline-auto"
@@ -49,14 +50,44 @@
               <!--headline-->
               <p class="mb-5">
                 <!--supporting copy-->
-                The only contortionist to win 5 consecutive rubber band awards. For Lucy, double-jointed is an understatement.
+                The only contortionist to win 5 consecutive rubber band awards. For Lucy, double-jointed is an
+                understatement.
               </p>
             </div>
           </div>
         </div>
       </section>
+<!--Event details displayed above CTA button-->
+      <section class="details" id="show-info">
+        <div class="card bg-base-100 w-96 shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title">Important Info</h2>
+            <ul class="list-disc list-inside">
+              <li>
+                <strong>Date:</strong>
+                June 20, 2026
+              </li>
+
+              <li>
+                <strong>Showtime:</strong>
+                4pm - 6pm EST
+              </li>
+
+              <li>
+                <strong>Location:</strong>
+                982 Bendiburg Lane, West Stretch New Jersey 11011
+              </li>
+              <li>
+                <strong>Contact:</strong>
+                (248) 434-5508
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <!--
+
       <div class="flex gap-5">
         <div>
           <span class="countdown font-mono text-4xl">
@@ -83,8 +114,7 @@
           sec
         </div>
       </div>
-      -->
+-->
     </main>
   </body>
 </html>
-<!--<script src="script.js"></script>-->
