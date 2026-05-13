@@ -8,3 +8,28 @@
 
     Don't use it to recreate styles DaisyUI provides.
 */
+
+.details {
+  display: flex;
+  justify-content: center;
+}
+
+.lmost-nav {
+
+}
+
+
+.card-title {
+  font-size: 1.75rem;
+}
+
+li {
+  line-height: 2.25rem;
+  font-size: medium;
+  padding-left: 1rem;
+  text-indent: -1rem;
+}
+
+.cta {
+  margin: 1.25rem auto
+}
